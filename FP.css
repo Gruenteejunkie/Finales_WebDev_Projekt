@@ -1,0 +1,61 @@
+.flex-head{
+    display: flex;
+    justify-content: row;
+    
+}
+
+a:hover{
+    background-color: salmon;
+    border-radius: 5px;
+    padding: 3px;
+}
+ul{ display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 50px;
+    margin: 50px;
+}
+li{
+    display: inline;
+    
+}
+.flex-about{
+    display: flex;
+}
+.skills{
+    display: flex;
+}
+img{
+    height: 400px;
+}
+h3.über{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.about{
+    text-align: justify;
+    margin-left:45px;
+}
+.skills{
+    text-align: justify;
+    margin-right:45px;
+}
+.Kontakt{
+    list-style: none;
+    text-align: left;
+}
+.id {
+    display: flex;
+    margin: 5px auto;
+    
+}
+body{
+    background-color: rgb(129, 160, 161);
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(129, 160, 161);
+}
